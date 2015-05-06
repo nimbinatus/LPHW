@@ -1,0 +1,3 @@
+Notes:
+
+Ex. 17: I cannot figure out why you get an error if you use the indata = open(from_file).read() and indata.close() together. I get why you would get an error from in_file.close() as undefined, but why should I not close the other version? Does it automatically close itself?

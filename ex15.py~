@@ -1,0 +1,25 @@
+#import the module argv from the overall system
+from sys import argv
+
+# pass argv two arguments to unpack
+script, filename = argv
+
+# set the variable txt to be a file to be opened
+txt = open(filename)
+
+# print the line with a raw input of the filename, which is passed in the
+# command line
+print "Here's your file, %r:" % filename
+# have the file pass its contents as read to the print command
+print txt.read()
+
+# prints a line
+print "Type the filename again:"
+# asks for a raw input again
+file_again = raw_input("> ")
+
+# sets a variable to open the file given again
+txt_again = open(file_again)
+
+# have the new file pass its contents as read to the print command
+print txt_again.read()

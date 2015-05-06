@@ -1,0 +1,10 @@
+from sys import argv
+
+script, name, age = argv
+
+print "My name is:", name
+print "My age is:", age
+print "My height is:", height
+
+hame = raw_input("Name? ")
+age = raw_input("Age? ")

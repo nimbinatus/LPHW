@@ -1,0 +1,17 @@
+The process is as follows:
+
+    Write or draw about the problem.
+    Extract key concepts from 1 and research them.
+    Create a class hierarchy and object map for the concepts.
+    Code the classes and a test to run them.
+    Repeat and refine.
+
+ This other way is labeled "bottom up." Here are the general steps you follow to do this:
+
+    Take a small piece of the problem; hack on some code and get it to run barely.
+    Refine the code into something more formal with classes and automated tests.
+    Extract the key concepts you're using and try to find research for them.
+    Write a description of what's really going on.
+    Go back and refine the code, possibly throwing it out and starting over.
+    Repeat, moving on to some other piece of the problem.
+

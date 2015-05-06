@@ -1,0 +1,5 @@
+Notes:
+
+Ex. 17: I cannot figure out why you get an error if you use the indata = open(from_file).read() and indata.close() together. I get why you would get an error from in_file.close() as undefined, but why should I not close the other version? Does it automatically close itself?
+
+Ex. 20: To search for +=, search for "plus-equal" in Google; it comes up as object.__iadd__(self, other) in the pydocs (https://docs.python.org/2/reference/datamodel.html#object.__iadd__). It is a more efficient machine call; see the discussion on programmer.stackexchange (http://programmers.stackexchange.com/questions/134118/why-are-shortcuts-like-x-y-considered-good-practice) for more detailed info. See http://stackoverflow.com/questions/4841436/what-exactly-does-do-in-python.
