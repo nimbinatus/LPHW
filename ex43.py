@@ -127,7 +127,18 @@ class Ending(Scene):
     ''' Defines self.enter() with storyline for the winning scenario '''
     def enter(self):
         # TODO: Write up story.
-        print "Winning scenario."
+        print ("You jump into the escape pod and punch the button to close the"
+               " hatch. You barely have time to get into the chair and reach "
+               "for the belts before you are slammed into your seat as the pod"
+               " leaves the ship. You look out the port window to see other "
+               "pods ejecting, but the Gothons must have sabotaged the rest. "
+               "The others collapse in on themselves. From your tiny pod, "
+               "heading to the planet below, you watch as the ship seems to "
+               "slowly implode, sucked into the explosion from the bomb. You "
+               "defeated the Gothons and prevented them from destroying the "
+               "surface where your colleagues are waiting. Congratulations, "
+               "you win!"
+              )
         exit()
 
 
